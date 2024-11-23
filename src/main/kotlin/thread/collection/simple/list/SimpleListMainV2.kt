@@ -31,6 +31,9 @@ class SimpleListMainV2 {
 }
 
 fun main() {
-    SimpleListMainV2().test(BasicList())
+//    SimpleListMainV2().test(BasicList())
+//    SimpleListMainV2().test(SyncList())
+    SimpleListMainV2().test(SyncProxyList(BasicList()))
+
 }
 
